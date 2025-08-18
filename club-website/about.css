@@ -1,0 +1,145 @@
+body{
+    background-color: #f9fbff;
+}
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F3F4F6;
+  padding: 10px 20px;
+
+}
+
+nav a {
+    color: #202140;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #BF2A37;
+}
+nav img{
+    width:80px;
+    height:60px;
+}
+.nav-links{
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    width:900px;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.content h1{
+    font-size:36px;
+    text-align:center;
+    font-family: sans-serif;
+    color: #BF2A37;
+    
+}
+.content p{
+    font-family:sans-serif;
+    font-size: 20px;
+}
+
+.leader-cards{
+    background: white;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}
+.lcard{
+    padding:20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+    text-align:center;
+    
+}
+.lcard:hover{
+    transform: scale(1.05);   /* zoom effect */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* stronger shadow */
+}
+.lcard p{
+    font-size: 20px;
+    font-family:sans-serif;
+
+}
+.lcard h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #202140;
+}
+.lcard h2{
+    font-size: 20px;
+    text-align: center;
+    color:#025951;
+    font-family:sans-serif;
+}
+.lcard-img{
+    width:150px;
+    height:165px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.Leaders h1{
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align:center;
+    margin: 20px 10px;
+    color: #202140;
+
+}
+.Leaders p{
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+footer {
+    background: #0D0D0D; 
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+  }
+
+  .footer-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  footer p {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #ccc;
+  }
+
+  .social-links {
+    margin-top: 10px;
+  }
+
+  .social-links a {
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #BF2642; 
+    transition: 0.3s;
+  }
+
+  .social-links a:hover {
+    color: #025951; 
+  }

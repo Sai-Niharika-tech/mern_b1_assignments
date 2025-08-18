@@ -1,0 +1,128 @@
+body{
+    background-color: #f9fbff;
+}
+nav {
+position: sticky;
+top: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #F3F4F6;
+padding: 10px 20px;
+
+}
+
+nav a {
+color: #202140;
+text-decoration: none;
+margin-left: 20px;
+font-weight: bold;
+font-size: 20px;
+}
+
+nav a:hover {
+color: #BF2A37;
+}
+nav img{
+width:80px;
+height:60px;
+}
+.nav-links{
+justify-content: center;
+text-align: center;
+}
+.Events h1{
+text-align: center;
+font-size: 36px;
+font-family: sans-serif;
+font-weight: bold;
+color: #202140;
+}
+.Events p{
+text-align: center;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: lighter;
+}
+.explore h1{
+margin-top: 25px;  
+text-align: center;
+font-size: 35px; 
+}
+.explore-cards{
+background: white;
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap:30px;
+margin-left: 55px;
+}
+.e-card{
+padding:20px;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+transition: transform 0.3s;
+text-align:center;
+}
+.e-card:hover{
+transform: scale(1.05); 
+box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+}
+.e-card p{
+font-size: 20px;
+font-family:sans-serif;
+}
+.e-card h1{
+font-size: 30px;
+font-family: sans-serif;
+font-weight: bold;
+color: #202140;
+}
+.e-card button{
+border: 1px solid white;
+background-color: #BF2A37;
+color:#F3F4F6;
+width: 105px;
+height: 35px;
+justify-content: center;
+border-radius: 25px;
+}
+.e-card button:hover{
+color: black;
+background-color: #BF2642;
+}
+
+footer {
+background: #0D0D0D; 
+color: white;
+text-align: center;
+padding: 20px 10px;
+margin-top: 40px;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: auto;
+}
+
+footer p {
+margin: 5px 0;
+font-size: 20px;
+color: #ccc;
+}
+
+.social-links {
+margin-top: 10px;
+}
+
+.social-links a {
+text-decoration: none;
+margin: 0 12px;
+font-size: 20px;
+font-weight: bold;
+color: #BF2642; 
+transition: 0.3s;
+}
+
+.social-links a:hover {
+color: #025951; 
+}

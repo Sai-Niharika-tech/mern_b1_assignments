@@ -1,0 +1,225 @@
+
+body, html {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: #F3F4F6;
+}
+
+.hero {
+height: 100vh;
+background: url('/images/background-image.png') no-repeat center center/cover; /* replace with your image */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+text-align: center;
+position: relative;
+}
+
+.hero::after {
+content: "";
+position: absolute;
+top: 0; left: 0;
+width: 100%; height: 100%;
+background: rgba(0,0,0,0.5); /* dark overlay */
+z-index: 1;
+}
+
+.hero-content {
+position: relative;
+z-index: 2;
+max-width: 800px;
+}
+
+.hero h1 {
+font-size: 3rem;
+margin-bottom: 1rem;
+}
+
+.hero p {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+line-height: 1.6;
+}
+
+.btn {
+padding: 12px 25px;
+margin: 0 10px;
+border: none;
+border-radius: 5px;
+font-size: 1rem;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.btn-primary {
+background: transparent;
+border: 2px solid white;
+color: white;
+}
+
+.btn-primary:hover {
+background: white;
+color:#333;
+}
+
+.btn-outline {
+background: transparent;
+border: 2px solid white;
+color: white;
+}
+
+.btn-outline:hover {
+background: white;
+color: #333;
+}
+
+
+nav {
+position: sticky;
+top: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #F3F4F6;
+padding: 10px 20px;
+
+}
+
+nav a {
+color: #202140;
+text-decoration: none;
+margin-left: 20px;
+font-weight: bold;
+font-size: 20px;
+}
+
+nav a:hover {
+
+color: #BF2A37;
+}
+nav img{
+width:80px;
+height:60px;
+}
+.nav-links{
+justify-content: center;
+text-align: center;
+}
+.mission-values{
+text-align:center;
+width:600px;
+height:200px;
+color: #0D0D0D;
+margin-left:auto;
+margin-right:auto;
+font-size:20px;
+font-family: sans-serif; 
+}
+.mission-values h1{
+font-size: 32px;
+font-family: sans-serif;
+color: #202140;
+}
+.cards{
+padding:60px 10px;
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 40px;
+background:#F3F4F6;
+}
+
+.card{
+background: white;
+padding:20px;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+transition: transform 0.3s;
+text-align:center;
+}
+.card:hover{
+transform: scale(1.05); 
+box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+}
+.card p{
+    font-size: 20px;
+font-family:sans-serif;
+
+}
+.card h1{
+font-size: 30px;
+font-family: sans-serif;
+font-weight: bold;
+color: #202140;
+}
+.card h2{
+font-size: 45px;
+text-align: center;
+}
+.join-us{
+text-align:center;
+background:#fffefe;
+}
+.join-form{
+font-size:28px;
+color:#BF2A37;
+font-family:sans-serif;
+padding-top: 25px;
+}
+.join-form button{
+width:195px;
+height:55px;
+background-color: #233A59;
+color: black;
+border-collapse: collapse;
+justify-content: center;
+text-align: center;
+font-size: 24px;
+font-style: bold;
+font-family: sans-serif;
+margin-bottom: 15px;
+border: 1px solid white;
+border-radius: 15px;
+}
+.join-form button:hover{
+color: white;
+background-color: #202140;
+}
+
+footer {
+background: #0D0D0D; 
+color: white;
+text-align: center;
+padding: 20px 10px;
+margin-top: 40px;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: auto;
+}
+
+footer p {
+margin: 5px 0;
+font-size: 20px;
+color: #ccc;
+}
+
+.social-links {
+margin-top: 10px;
+}
+
+.social-links a {
+text-decoration: none;
+margin: 0 12px;
+font-size: 20px;
+font-weight: bold;
+color: #BF2642; 
+transition: 0.3s;
+}
+
+.social-links a:hover {
+color: #025951; 
+}
